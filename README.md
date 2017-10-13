@@ -36,7 +36,7 @@ Based on [Reddit](https://www.reddit.com/r/androiddev/comments/75wgde/android_ar
 4) Repository (Fake Network Api)
 
 ----
-### 3- 3rd Party -> [Mindorks](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
+### 3- 3rd Party -> [Mindorks](https://github.com/MindorksOpenSource/android-mvp-architecture)
 
 1) Repository (Network, DB, Prefs)
 2) Navigation Drawer
