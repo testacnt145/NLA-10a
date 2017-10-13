@@ -14,8 +14,9 @@
 # Articles
 1) Official Google - Architecture Blue Prints : https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/
 2) Official Google - Code Labs https://codelabs.developers.google.com/codelabs/android-testing/index.html#0
-3) 3rd Party : https://github.com/MindorksOpenSource/android-mvp-architecture
+3) 3rd Party - Actual App : https://github.com/MindorksOpenSource/android-mvp-architecture
 4) 3rd Party : https://github.com/androidstarters/android-starter/
+5) 3rd Party - Actual App : https://github.com/ribot/ribot-app-android 
 
 ----
 ### 1- Official Google -> [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
@@ -24,6 +25,7 @@
 2) Testing
 3) Portrait + Landscape (Configuration change supported)
 4) Activities + Fragments
+5) Repository (Fake Implementation)
 
 ----
 ### 2- Official Google -> [Code Labs](https://codelabs.developers.google.com/codelabs/android-testing/index.html#0)
@@ -41,11 +43,21 @@ Based on [Reddit](https://www.reddit.com/r/androiddev/comments/75wgde/android_ar
 1) Repository (Network, DB, Prefs)
 2) Navigation Drawer
 3) Only Portrait orientation supported
+4) RxJava, ButterKnife
 
 ----
 ### 4- 3rd Party -> [Starter](https://github.com/androidstarters/android-starter/)
 
+Based on [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
+
 1) Simplicity
+2) Retrofit, RxJava, ButterKnife
+
+----
+### 5- 3rd Party -> [Ribot](https://github.com/ribot/ribot-app-android )
+
+1) Repository (uses all 3)
+2) Retrofit, SqlBright, RxJava, ButterKnife
 
 ----
 
