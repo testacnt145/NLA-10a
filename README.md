@@ -17,6 +17,7 @@
 3) 3rd Party - Actual App : https://github.com/MindorksOpenSource/android-mvp-architecture
 4) 3rd Party : https://github.com/androidstarters/android-starter/
 5) 3rd Party - Actual App : https://github.com/ribot/ribot-app-android 
+6) Marvel Comic API - Multiple Implementations [Main](https://goo.gl/weZ471) | [1](https://github.com/segunfamisa/marvel-comics-android) | [Basic-NoDagger,RxJava](https://github.com/JoaquimLey/avenging) | [Realm](https://github.com/segunfamisa/marvel-comics-android) | [Databinding](https://github.com/andremion/Villains-and-Heroes) | [All](https://github.com/mirhoseini/marvel)
 
 ----
 ### 1- Official Google -> [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
@@ -30,7 +31,9 @@
 ----
 ### 2- Official Google -> [Code Labs](https://codelabs.developers.google.com/codelabs/android-testing/index.html#0)
 
-Based on [Reddit](https://www.reddit.com/r/androiddev/comments/75wgde/android_architecture_blueprints_todomvp_sample/do9lrs3/)
+[Reddit](https://www.reddit.com/r/androiddev/comments/75wgde/android_architecture_blueprints_todomvp_sample/do9lrs3/)
+
+[Reddit](https://www.reddit.com/r/androiddev/comments/6po5ls/any_good_resources_on_mvp_step_by_step/)
 
 1) Testing in detail
 2) Portrait + Landscape (Configuration change supported)
@@ -40,6 +43,8 @@ Based on [Reddit](https://www.reddit.com/r/androiddev/comments/75wgde/android_ar
 ----
 ### 3- 3rd Party -> [Mindorks](https://github.com/MindorksOpenSource/android-mvp-architecture)
 
+[Reddit](https://www.reddit.com/r/androiddev/comments/6po5ls/any_good_resources_on_mvp_step_by_step/)
+
 1) Repository (Network, DB, Prefs)
 2) Navigation Drawer
 3) Only Portrait orientation supported
@@ -48,7 +53,7 @@ Based on [Reddit](https://www.reddit.com/r/androiddev/comments/75wgde/android_ar
 ----
 ### 4- 3rd Party -> [Starter](https://github.com/androidstarters/android-starter/)
 
-Based on [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
+[Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
 
 1) Simplicity
 2) Retrofit, RxJava, ButterKnife
