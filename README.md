@@ -19,10 +19,11 @@
 # Articles
 1) Official Google - Architecture Blue Prints : https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/
 2) Official Google - Code Labs https://codelabs.developers.google.com/codelabs/android-testing/index.html#0
-3) 3rd Party - Actual App : https://github.com/MindorksOpenSource/android-mvp-architecture
-4) 3rd Party : https://github.com/androidstarters/android-starter/
-5) 3rd Party - Actual App : https://github.com/ribot/ribot-app-android 
-6) Marvel Comic API - Multiple Implementations [Main](https://goo.gl/weZ471) | [1](https://github.com/segunfamisa/marvel-comics-android) | [Basic-NoDagger,RxJava](https://github.com/JoaquimLey/avenging) | [Realm](https://github.com/segunfamisa/marvel-comics-android) | [Databinding](https://github.com/andremion/Villains-and-Heroes) | [All](https://github.com/mirhoseini/marvel)
+3) 3rd Party - Quiz - App : https://github.com/MindorksOpenSource/android-mvp-architecture
+4) 3rd Party - Pokemon API - App: https://github.com/androidstarters/android-starter/
+5) 3rd Party - Ribot - App : https://github.com/ribot/ribot-app-android
+6) 3rd Party - Dribble API - App : https://github.com/athkalia/Just-Another-Android-App
+7) Marvel Comic API - Multiple Implementations [Main](https://goo.gl/weZ471) | [1](https://github.com/segunfamisa/marvel-comics-android) | [Basic-NoDagger,RxJava](https://github.com/JoaquimLey/avenging) | [Realm](https://github.com/segunfamisa/marvel-comics-android) | [Databinding](https://github.com/andremion/Villains-and-Heroes) | [All](https://github.com/mirhoseini/marvel)
 
 ----
 ### 1- Official Google -> [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
