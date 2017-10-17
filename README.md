@@ -71,6 +71,11 @@
 2) Retrofit, SqlBright, RxJava, ButterKnife
 
 ----
+### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App)
+
+1) Mosbi MVP
+
+----
 
 # Issues with NLA-4b
 1) Dagger: Improper use of Dagger as Presenter is not injected
