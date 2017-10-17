@@ -15,6 +15,8 @@
 ### CONFIGURATION CHANGES
 1) RTL -> Languages change -> by saving presenter state
 
+# Reddit
+[Reddit -> Sample_App_Required_That_Uses_MVP_Dagger_Retrofit](https://www.reddit.com/r/androiddev/comments/76wqog/sample_app_required_that_uses_mvp_dagger_retrofit/)
 
 # Articles
 1) Official Google - Architecture Blue Prints : https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/
