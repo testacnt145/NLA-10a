@@ -73,7 +73,7 @@
 ----
 ### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App)
 
-1) Mosbi MVP
+1) Mosby MVP
 
 ----
 
