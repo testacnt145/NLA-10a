@@ -1,8 +1,46 @@
 # Purpose
 ### MVP
 #### Base Presenter
-1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java) | [2](https://github.com/googlecodelabs/android-testing/blob/master/app/src/main/java/com/example/android/testing/notes/notes/NotesPresenter.java) | [3](https://github.com/MindorksOpenSource/android-mvp-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java) | [4](https://github.com/androidstarters/android-starter/blob/develop/app/src/main/java/io/mvpstarter/sample/features/base/BasePresenter.java) | [5](https://github.com/ribot/ribot-app-android/blob/master/app/src/main/java/io/ribot/app/ui/base/BasePresenter.java) | [6](https://github.com/athkalia/Just-Another-Android-App/blob/develop/app/src/main/java/com/example/features/dashboard/presenter/MainPresenter.java) | [7](https://github.com/andremion/Villains-and-Heroes/blob/master/app/src/main/java/com/andremion/heroes/ui/AbsPresenter.java)
-2) 1 has BasePresnter(interface) | 3,4,5,7 hasBasePresenter(class) that implements Presenter(interface) | 6 uses library
+1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
+`
+interface BasePresenter<T>   |   
+void takeView(T view);   |   
+void dropView();
+`
+2) [2](https://github.com/googlecodelabs/android-testing/blob/master/app/src/main/java/com/example/android/testing/notes/notes/NotesPresenter.java)
+`
+class NotesPresenter
+`
+3) [3](https://github.com/MindorksOpenSource/android-mvp-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java)
+`
+class BasePresenter<V extends MvpView> implements MvpPresenter<V>   |   
+@Override public void onAttach(V mvpView)   |   
+@Override public void onDetach()
+`
+4) [4](https://github.com/androidstarters/android-starter/blob/develop/app/src/main/java/io/mvpstarter/sample/features/base/BasePresenter.java)
+`
+class BasePresenter<T extends MvpView> implements Presenter<T>   |   
+@Override public void attachView(T mvpView)   |   
+@Override public void detachView()
+`
+5) [5](https://github.com/ribot/ribot-app-android/blob/master/app/src/main/java/io/ribot/app/ui/base/BasePresenter.java)
+`
+class BasePresenter<T extends MvpView> implements Presenter<T>   |   
+@Override public void attachView(T mvpView)   |   
+@Override public void detachView()
+`
+6) [6](https://github.com/athkalia/Just-Another-Android-App/blob/develop/app/src/main/java/com/example/features/dashboard/presenter/MainPresenter.java)
+`
+class MainPresenter extends MvpNullObjectBasePresenter<MainView>   |   
+@Override public void detachView(boolean retainInstance)
+`
+7) [7](https://github.com/andremion/Villains-and-Heroes/blob/master/app/src/main/java/com/andremion/heroes/ui/AbsPresenter.java) 
+`
+abstract class AbsPresenter<V>   |   
+@CallSuper public void attachView(@NonNull V view)   |   
+@CallSuper public void detachView()
+`
+
 #### Dagger injection
 1) Insert Presenter from Dagger in Activity
 2) Insert repository in Presenter (not in Activity)
