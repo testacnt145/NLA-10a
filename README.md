@@ -67,10 +67,10 @@ b- todo-mvp-dagger (Presenter constructor is **injected** directly in **Presnter
 @Inject
 AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepository,
                          Lazy<Boolean> shouldLoadDataFromRepo) {
-        mTaskId = taskId;
-        mTasksRepository = tasksRepository;
-        mIsDataMissingLazy = shouldLoadDataFromRepo;
-    }
+     mTaskId = taskId;
+     mTasksRepository = tasksRepository;
+     mIsDataMissingLazy = shouldLoadDataFromRepo;
+}
 ```
 
 #### Dagger injection
