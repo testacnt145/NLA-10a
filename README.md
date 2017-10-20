@@ -1,6 +1,6 @@
 # Purpose
-### MVP
-#### Base Presenter
+### 1-MVP
+#### 1a) Base Presenter
 1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
 ```java
 interface BasePresenter<T>
@@ -48,10 +48,10 @@ abstract class AbsPresenter<V>
      @CallSuper public void detachView()
 ```
 
-#### Injection of Network Repository
+#### 1b) Injection of Network Repository
 1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskActivity.java) 
 
-a- todo-mvp (Repository is **injected** in **Activity** and pass through **Presenter** constructor)
+a- todo-mvp (Repository is **injected** in **Activity** and pass to **Presenter** via constructor)
 ```java
 //Activity.java
 mAddEditTaskPresenter = new AddEditTaskPresenter(
@@ -71,6 +71,11 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
      mTasksRepository = tasksRepository;
      mIsDataMissingLazy = shouldLoadDataFromRepo;
 }
+```
+2) [2](https://github.com/googlecodelabs/android-testing/blob/master/app/src/main/java/com/example/android/testing/notes/notes/NotesActivity.java)  (Repository is **injected** in **Fragment** and pass to **Presenter** via constructor)
+```java
+ mActionListener = new AddNotePresenter(Injection.provideNotesRepository(), this,
+                Injection.provideImageFile());
 ```
 
 #### Dagger injection
