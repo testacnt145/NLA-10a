@@ -190,13 +190,14 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 
 1) Repository (uses all 3)
 2) Retrofit, SqlBright, RxJava, ButterKnife
+3) Marshmallow [6] permission
 
 ----
 ### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App)
 
 1) Mosby MVP
 2) Screen orientation changes supported (via ViewState)
-3) Nougat 7.1 apps shortcut
+3) Nougat [7.1] apps shortcut
 
 ----
 
