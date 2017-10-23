@@ -200,6 +200,12 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 3) Nougat [7.1] apps shortcut
 
 ----
+### 7- 3rd Party -> [Dribble API](https://github.com/segunfamisa/marvel-comics-android)
+
+1) Screen orientation changes supported
+2) Databinding, Retrofit, Dagger, RxJava, Realm
+
+----
 
 # Issues with NLA-4b
 1) Dagger: Improper use of Dagger as Presenter is not injected
