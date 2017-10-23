@@ -111,6 +111,7 @@ This app uses
 2) Retrofit + Dagger + Databining
 3) Localization + RTL
 4) View Pager + Navigation Drawer + Recycler view
+5) Test Presenter
 
 TODO
 1) MVVM (same)
