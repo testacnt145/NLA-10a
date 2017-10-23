@@ -2,6 +2,13 @@
 ### 1-MVP
 #### 1a) Base Presenter
 1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
+
+a- todo-mvp
+```java
+interface BasePresenter
+    void start();
+```
+b- todo-mvp-dagger
 ```java
 interface BasePresenter<T>
      void takeView(T view); 
@@ -96,16 +103,26 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 # Articles
 
 ### COLLECTION OF [STARTERS](http://androidstarters.com/)
-1) Official Google - Architecture Blue Prints : https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/
+1) {a,b} Official Google - Architecture Blue Prints : https://github.com/googlesamples/android-architecture
 2) Official Google - Code Labs https://codelabs.developers.google.com/codelabs/android-testing/index.html#0
-3) 3rd Party - Quiz - App : https://github.com/MindorksOpenSource/android-mvp-architecture
+3) {a,b} 3rd Party - Quiz - App : https://github.com/MindorksOpenSource
 4) 3rd Party - Pokemon API - App: https://github.com/androidstarters/android-starter/
 5) 3rd Party - Ribot - App : https://github.com/ribot/ribot-app-android
 6) 3rd Party - Dribble API - App : https://github.com/athkalia/Just-Another-Android-App
 7) Marvel Comic API - Multiple Implementations [Main](https://goo.gl/weZ471) | [1](https://github.com/segunfamisa/marvel-comics-android) | [Basic-NoDagger,RxJava](https://github.com/JoaquimLey/avenging) | [Realm](https://github.com/segunfamisa/marvel-comics-android) | [Databinding](https://github.com/andremion/Villains-and-Heroes) | [All](https://github.com/mirhoseini/marvel)
 
 ----
-### 1- Official Google -> [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
+### 1- Official Google -> [android-architecture](https://github.com/googlesamples/android-architecture)
+
+#### 1a [android-architecture/tree/todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/)
+
+1) Dagger
+2) Testing
+3) Portrait + Landscape (Configuration change supported)
+4) Activities + Fragments
+5) Repository (Fake Implementation)
+
+#### 1b [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
 
 1) Dagger
 2) Testing
@@ -126,9 +143,18 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 4) Repository (Fake Network Api)
 
 ----
-### 3- 3rd Party -> [Mindorks](https://github.com/MindorksOpenSource/android-mvp-architecture)
+### 3- 3rd Party -> [Mindorks](https://github.com/MindorksOpenSource)
 
 [Reddit](https://www.reddit.com/r/androiddev/comments/6po5ls/any_good_resources_on_mvp_step_by_step/)
+
+#### 3a [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
+
+1) Repository (Network, DB, Prefs)
+2) Navigation Drawer
+3) Only Portrait orientation supported
+4) RxJava, ButterKnife
+
+#### 3b [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture)
 
 1) Repository (Network, DB, Prefs)
 2) Navigation Drawer
