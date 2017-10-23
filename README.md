@@ -196,6 +196,7 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 
 1) Mosby MVP
 2) Screen orientation changes supported (via ViewState)
+3) Nougat 7.1 apps shortcut
 
 ----
 
