@@ -199,9 +199,10 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 1) Mosby MVP
 2) Screen orientation changes supported (via ViewState)
 3) Nougat [7.1] apps shortcut
+4) [Code Audit | APK Versioning - Hockey App | Dex count | FInd Bugs](https://github.com/athkalia/Just-Another-Android-App/tree/develop/art)
 
 ----
-### 7- 3rd Party -> [Dribble API](https://github.com/segunfamisa/marvel-comics-android)
+### 7- 3rd Party -> [Marvel Comic API](https://github.com/segunfamisa/marvel-comics-android)
 
 1) Screen orientation changes supported
 2) Databinding, Retrofit, Dagger, RxJava, Realm
