@@ -125,6 +125,7 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 5) 3rd Party - Ribot - App : https://github.com/ribot/ribot-app-android
 6) 3rd Party - Dribble API - App : https://github.com/athkalia/Just-Another-Android-App
 7) Marvel Comic API - Multiple Implementations [Main](https://goo.gl/weZ471) | [1](https://github.com/segunfamisa/marvel-comics-android) | [Basic-NoDagger,RxJava](https://github.com/JoaquimLey/avenging) | [Realm](https://github.com/segunfamisa/marvel-comics-android) | [Databinding](https://github.com/andremion/Villains-and-Heroes) | [All](https://github.com/mirhoseini/marvel)
+8) [My Reddit Question](https://www.reddit.com/r/androiddev/comments/76wqog/sample_app_required_that_uses_mvp_dagger_retrofit/)
 
 ----
 ### 1- Official Google -> [android-architecture](https://github.com/googlesamples/android-architecture)
