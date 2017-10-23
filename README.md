@@ -20,6 +20,8 @@ interface BasePresenter<T>
 class NotesPresenter
 ```
 3) [3](https://github.com/MindorksOpenSource/android-mvp-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java)
+
+a- [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java)
 ```java
 class BasePresenter<V extends MvpView> implements MvpPresenter<V> 
      @Override
@@ -27,6 +29,15 @@ class BasePresenter<V extends MvpView> implements MvpPresenter<V>
      @Override
      public void onDetach()
 ```
+b- [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java)
+```java
+class BasePresenter<V extends MvpView, I extends MvpInteractor> implements MvpPresenter<V, I>
+     @Override
+     public void onAttach(V mvpView)  
+     @Override
+     public void onDetach()
+```
+
 4) [4](https://github.com/androidstarters/android-starter/blob/develop/app/src/main/java/io/mvpstarter/sample/features/base/BasePresenter.java)
 ```java
 class BasePresenter<T extends MvpView> implements Presenter<T>  
