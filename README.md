@@ -2,14 +2,14 @@
 ### MVP
 ----
 #### 1a) Base Presenter
-1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
+1) 1
 
-a- todo-mvp
+a- [todo-mvp](https://github.com/googlesamples/android-architecture/blob/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
 ```java
 interface BasePresenter
     void start();
 ```
-b- todo-mvp-dagger
+b- [todo-mvp-dagger](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
 ```java
 interface BasePresenter<T>
      void takeView(T view); 
@@ -19,7 +19,7 @@ interface BasePresenter<T>
 ```java
 class NotesPresenter
 ```
-3) [3](https://github.com/MindorksOpenSource/android-mvp-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java)
+3) 3
 
 a- [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture/blob/master/app/src/main/java/com/mindorks/framework/mvp/ui/base/BasePresenter.java)
 ```java
