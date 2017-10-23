@@ -94,6 +94,8 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 [Reddit -> Sample_App_Required_That_Uses_MVP_Dagger_Retrofit](https://www.reddit.com/r/androiddev/comments/76wqog/sample_app_required_that_uses_mvp_dagger_retrofit/)
 
 # Articles
+
+### COLLECTION OF [STARTERS](http://androidstarters.com/)
 1) Official Google - Architecture Blue Prints : https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/
 2) Official Google - Code Labs https://codelabs.developers.google.com/codelabs/android-testing/index.html#0
 3) 3rd Party - Quiz - App : https://github.com/MindorksOpenSource/android-mvp-architecture
