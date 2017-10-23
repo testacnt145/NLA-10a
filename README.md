@@ -1,5 +1,6 @@
 # Purpose
-### 1-MVP
+### MVP
+----
 #### 1a) Base Presenter
 1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
 
@@ -89,12 +90,15 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 1) Insert Presenter from Dagger in Activity
 2) Insert repository in Presenter (not in Activity)
 ### OTHERS
+----
 3) Integrate Realm Database
 4) Integrate Preference
 5) Making repository work with all 3(network, database & pref)
 ### UI
+----
 1) View Pager + Navigation Drawer + Recycler View
 ### CONFIGURATION CHANGES
+----
 1) RTL -> Languages change -> by saving presenter state
 
 # Reddit
