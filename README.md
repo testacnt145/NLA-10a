@@ -183,6 +183,7 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 
 1) Simplicity
 2) Retrofit, RxJava, ButterKnife
+3) Portrait + Landscape (Configuration change not supported) 
 
 ----
 ### 5- 3rd Party -> [Ribot](https://github.com/ribot/ribot-app-android )
