@@ -104,3 +104,13 @@
 # Useful Tutorial
 Databinding:
 http://www.vogella.com/tutorials/AndroidDatabinding/article.html
+
+# SAMPLE APP - API 17
+This app uses
+1) MVP + Configuration changes supported + Repository (Database, API, Preferences)
+2) Retrofit + Dagger + Databining
+3) Localization + RTL
+4) View Pager + Navigation Drawer + Recycler view
+
+TODO
+1) MVVM (same)
