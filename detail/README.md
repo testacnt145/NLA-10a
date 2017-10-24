@@ -1,7 +1,7 @@
 # Purpose
 ### MVP
 ----
-***#### 1a) Base Presenter***
+***## 1a) Base Presenter***
 1) 1
 
 a- [todo-mvp](https://github.com/googlesamples/android-architecture/blob/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/BasePresenter.java)
@@ -66,10 +66,12 @@ abstract class AbsPresenter<V>
      @CallSuper public void attachView(@NonNull V view)
      @CallSuper public void detachView()
 ```
-***#### 1b) Where to call onAttach, onDetach [Activity, Fragment]***
+
+***## 1b) Where to call onAttach, onDetach [Activity, Fragment]***
 1) [1]
 
-***#### 1c) Injection of Network Repository***
+
+***## 1c) Injection of Network Repository***
 1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskActivity.java) 
 
 a- todo-mvp (Repository is **injected** in **Activity** and pass to **Presenter** via constructor)
@@ -99,7 +101,7 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
                 Injection.provideImageFile());
 ```
 
-#### DAGGER
+### DAGGER
 ----
 1) Insert Presenter from Dagger in Activity
 2) Insert repository in Presenter (not in Activity)
