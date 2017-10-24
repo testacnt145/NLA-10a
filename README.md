@@ -23,6 +23,7 @@
 3) Portrait + Landscape (Configuration change supported)
 4) Activities + Fragments
 5) Repository (Fake Implementation)
+6) UI(Navigation Drawer)
 
 #### 1b [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/)
 
@@ -31,6 +32,7 @@
 3) Portrait + Landscape (Configuration change supported)
 4) Activities + Fragments
 5) Repository (Fake Implementation)
+6) UI(Navigation Drawer)
 
 ----
 ### 2- Official Google -> [Code Labs](https://codelabs.developers.google.com/codelabs/android-testing/index.html#0)
@@ -43,6 +45,7 @@
 2) Portrait + Landscape (Configuration change supported)
 3) Activities + Fragments
 4) Repository (Fake Network Api)
+5) UI(Navigation Drawer)
 
 ----
 ### 3- 3rd Party -> [Mindorks](https://github.com/MindorksOpenSource)
@@ -52,16 +55,16 @@
 #### 3a [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
 
 1) Repository (Network, DB, Prefs)
-2) Navigation Drawer
-3) Only Portrait orientation supported
-4) RxJava, ButterKnife
+2) Only Portrait orientation supported
+3) RxJava, ButterKnife
+4) UI(Navigation Drawer)
 
 #### 3b [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture)
 
 1) Repository (Network, DB, Prefs)
-2) Navigation Drawer
-3) Only Portrait orientation supported
-4) RxJava, ButterKnife
+2) Only Portrait orientation supported
+3) RxJava, ButterKnife
+4) UI(Navigation Drawer)
 
 ----
 ### 4- 3rd Party -> [Starter](https://github.com/androidstarters/android-starter/)
@@ -71,6 +74,7 @@
 1) Simplicity
 2) Retrofit, RxJava, ButterKnife
 3) Portrait + Landscape (Configuration change not supported) 
+4) UI(Recycler View)
 
 ----
 ### 5- 3rd Party -> [Ribot](https://github.com/ribot/ribot-app-android )
