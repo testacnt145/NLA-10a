@@ -110,7 +110,7 @@ This app uses
 1) MVP + Configuration changes supported + Repository (Database, API, Preferences)
 2) Retrofit + Dagger + Databining
 3) Localization + RTL
-4) View Pager + Navigation Drawer + Recycler view
+4) Fragments + View Pager + Navigation Drawer + Recycler view with multiple items
 5) Test Presenter
 
 TODO
