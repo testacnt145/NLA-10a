@@ -66,8 +66,10 @@ abstract class AbsPresenter<V>
      @CallSuper public void attachView(@NonNull V view)
      @CallSuper public void detachView()
 ```
+#### 1b) Where to call onAttach, onDetach [Activity, Fragment]
+1) [1]
 
-#### 1b) Injection of Network Repository
+#### 1c) Injection of Network Repository
 1) [1](https://github.com/googlesamples/android-architecture/blob/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskActivity.java) 
 
 a- todo-mvp (Repository is **injected** in **Activity** and pass to **Presenter** via constructor)
@@ -100,8 +102,10 @@ AddEditTaskPresenter(@Nullable String taskId, @NonNull TasksRepository tasksRepo
 #### Dagger injection
 1) Insert Presenter from Dagger in Activity
 2) Insert repository in Presenter (not in Activity)
+
 ### OTHERS
 ----
+1) How to avoid network call on configuration changes
 3) Integrate Realm Database
 4) Integrate Preference
 5) Making repository work with all 3(network, database & pref)
