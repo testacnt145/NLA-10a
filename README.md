@@ -32,7 +32,7 @@
 3) Portrait + Landscape (Configuration change supported)
 4) Activities + Fragments
 5) Repository (Fake Implementation)
-6) UI(Navigation Drawer)
+6) UI(Navigation Drawer, Recycler View)
 
 ----
 ### 2- Official Google -> [Code Labs](https://codelabs.developers.google.com/codelabs/android-testing/index.html#0)
@@ -45,7 +45,7 @@
 2) Portrait + Landscape (Configuration change supported)
 3) Activities + Fragments
 4) Repository (Fake Network Api)
-5) UI(Navigation Drawer)
+5) UI(Navigation Drawer, Recycler View)
 
 ----
 ### 3- 3rd Party -> [Mindorks](https://github.com/MindorksOpenSource)
@@ -57,14 +57,14 @@
 1) Repository (Network, DB, Prefs)
 2) Only Portrait orientation supported
 3) RxJava, ButterKnife
-4) UI(Navigation Drawer)
+4) UI(Navigation Drawer, Recycler View)
 
 #### 3b [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture)
 
 1) Repository (Network, DB, Prefs)
 2) Only Portrait orientation supported
 3) RxJava, ButterKnife
-4) UI(Navigation Drawer)
+4) UI(Navigation Drawer, Recycler View)
 
 ----
 ### 4- 3rd Party -> [Starter](https://github.com/androidstarters/android-starter/)
@@ -81,21 +81,24 @@
 
 1) Repository (uses all 3)
 2) Retrofit, SqlBright, RxJava, ButterKnife
-3) Marshmallow [6] permission
+3) UI(Recycler View)
+4) Marshmallow [6] permission
 
 ----
 ### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App)
 
 1) Mosby MVP
 2) Screen orientation changes supported (via ViewState)
-3) Nougat [7.1] apps shortcut
-4) [Code Audit | APK Versioning - Hockey App | Dex count | FInd Bugs](https://github.com/athkalia/Just-Another-Android-App/tree/develop/art)
+3) UI(Recycler View)
+4) Nougat [7.1] apps shortcut
+5) [Code Audit | APK Versioning - Hockey App | Dex count | FInd Bugs](https://github.com/athkalia/Just-Another-Android-App/tree/develop/art)
 
 ----
 ### 7- 3rd Party -> [Marvel Comic API](https://github.com/segunfamisa/marvel-comics-android)
 
 1) Screen orientation changes supported
 2) Databinding, Retrofit, Dagger, RxJava, Realm
+3) UI(Recycler View)
 
 ----
 
