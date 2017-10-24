@@ -22,7 +22,7 @@
 
 1) Dagger
 2) Testing
-3) Portrait + Landscape (Configuration change supported)
+3) P+L(Config-chages-sup => Recycler view retains its position)
 4) Activities + Fragments
 5) Repository (Fake Implementation)
 6) UI(Navigation Drawer)
@@ -35,7 +35,7 @@
 [Reddit](https://www.reddit.com/r/androiddev/comments/6po5ls/any_good_resources_on_mvp_step_by_step/)
 
 1) Testing in detail
-2) Portrait + Landscape (Configuration change supported)
+2) P+L(Config-chages-sup => Recycler view retains its position)
 3) Activities + Fragments
 4) Repository (Fake Network Api)
 5) UI(Navigation Drawer, Recycler View)
@@ -50,7 +50,7 @@
 #### 3b [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)
 
 1) Repository (Network, DB, Prefs)
-2) Only Portrait orientation supported
+2) P only
 3) RxJava, ButterKnife
 4) UI(Navigation Drawer, Recycler View)
 
@@ -60,14 +60,15 @@
 [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
 
 1) Simplicity
-2) Retrofit, RxJava, ButterKnife
-3) Portrait + Landscape (Configuration change not supported) 
+2) P+L(Config-chages-Not-sup => Network call every time) 
+3) Retrofit, RxJava, ButterKnife
 4) UI(Recycler View)
 
 ----
 ### 5- 3rd Party -> [Ribot](https://github.com/ribot/ribot-app-android/tree/master/app/src/main/java/io/ribot/app)
 
 1) Repository (uses all 3)
+2) P+L
 2) Retrofit, SqlBright, RxJava, ButterKnife
 3) UI(Recycler View)
 4) Marshmallow [6] permission
@@ -76,7 +77,7 @@
 ### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App/tree/develop/app/src/main/java/com/example)
 
 1) Mosby MVP
-2) Screen orientation changes supported (via ViewState)
+2) P+L(Config-chages-sup-via-ViewState => Recycler view does Not retain its position)
 3) UI(Recycler View)
 4) Nougat [7.1] apps shortcut
 5) [Code Audit | APK Versioning - Hockey App | Dex count | FInd Bugs](https://github.com/athkalia/Just-Another-Android-App/tree/develop/art)
@@ -84,7 +85,7 @@
 ----
 ### 7- 3rd Party -> [Marvel Comic API](https://github.com/andremion/Villains-and-Heroes/tree/master/app/src/main/java/com/andremion/heroes)
 
-1) Screen orientation changes supported
+1) P+L(Config-chages-sup => No Network call twice - Recycler view retain its position)
 2) Databinding, Retrofit, Dagger, RxJava, Realm
 3) UI(Recycler View)
 
