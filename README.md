@@ -112,6 +112,7 @@ This app uses
 3) Localization + RTL
 4) Fragments + View Pager + Navigation Drawer + Recycler view with multiple items
 5) Test Presenter
+6) Marshmallow Permission + Nougat App Shortcut + Oreo Notification Dots
 
 TODO
 1) MVVM (same)
