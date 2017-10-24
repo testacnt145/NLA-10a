@@ -18,13 +18,6 @@
 
 #### 1a [android-architecture/tree/todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp)
 
-1) Dagger
-2) Testing
-3) Portrait + Landscape (Configuration change supported)
-4) Activities + Fragments
-5) Repository (Fake Implementation)
-6) UI(Navigation Drawer)
-
 #### 1b [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp)
 
 1) Dagger
@@ -53,11 +46,6 @@
 [Reddit](https://www.reddit.com/r/androiddev/comments/6po5ls/any_good_resources_on_mvp_step_by_step/)
 
 #### 3a [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)
-
-1) Repository (Network, DB, Prefs)
-2) Only Portrait orientation supported
-3) RxJava, ButterKnife
-4) UI(Navigation Drawer, Recycler View)
 
 #### 3b [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)
 
