@@ -101,7 +101,12 @@
 Databinding:
 http://www.vogella.com/tutorials/AndroidDatabinding/article.html
 
-# SAMPLE APP - API 17
+# SAMPLE APP
+#### API 17
+#### Android Studio 3.0
+#### sourceCompatibility JavaVersion.VERSION_1_8 | targetCompatibility JavaVersion.VERSION_1_8
+#### Gradle: 4.1 | Android-Plugin: 3.0.0 | Android-Plugin-Repo: jcenter | Default-Lib-Repo: jcenter,google()
+
 This app uses
 1) MVP + Configuration changes supported + Repository (Database, API, Preferences)
 2) Retrofit + Dagger + Databining
