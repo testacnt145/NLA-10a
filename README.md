@@ -61,7 +61,7 @@
 
 [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
 
-[My Github issue](https://github.com/androidstarters/android-starter/issues)
+[My Github issue](https://github.com/androidstarters/android-starter/issues/34)
 
 1) Simplicity
 2) P+L(Config-chages-Not-sup => Network call every time) 
