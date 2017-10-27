@@ -99,11 +99,6 @@
 2) Dagger: Scope, Component not used
 3) Binding [best practice](https://github.com/andremion/Villains-and-Heroes/tree/master/app/src/main/java/com/andremion/heroes/ui/binding) not followed to display image from glide 
 
-
-# Useful Tutorial
-Databinding:
-http://www.vogella.com/tutorials/AndroidDatabinding/article.html
-
 # SAMPLE APP
 #### API 17
 #### Android Studio 3.0
