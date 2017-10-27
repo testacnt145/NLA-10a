@@ -7,6 +7,7 @@ Project using [minforks-mvp-interactor](https://github.com/MindorksOpenSource/an
     -issues : not up to date
 
 **UP TO DATE MVP**
-2. [Mindorks-mvp](https://github.com/MindorksOpenSource/android-mvp-architecture) 
+
+1. [Mindorks-mvp](https://github.com/MindorksOpenSource/android-mvp-architecture) 
     -perfect for dagger
     -issues : base class implementations
