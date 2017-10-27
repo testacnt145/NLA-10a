@@ -47,21 +47,19 @@
 
 #### 3a [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp) **27-Jan-17 | 1936**
 
-#### 3b ~~[android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)~~ **27-Jan-17 | 141**
+#### 3b ~~[android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)~~ **27-Jan-17 | 141 | *Too broad***
 
-***3b=>TOO BROAD FOR SMALL PROJECTS***
 1) Repository (Network, DB, Prefs)
 2) P only
 3) RxJava, ButterKnife
 4) UI(Navigation Drawer, Recycler View)
 
 ----
-### 4- ~~3rd Party -> [Starter](https://github.com/androidstarters/android-starter/tree/develop/app/src/main/java/io/mvpstarter/sample)~~ **4-Aug-16 | 428 | Copied Ribot**
+### 4- ~~3rd Party -> [Starter](https://github.com/androidstarters/android-starter/tree/develop/app/src/main/java/io/mvpstarter/sample)~~ **4-Aug-16 | 428 | *Copied Ribot***
 
 
 [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
 
-***4=>COPIES RIBOT***
 1) Simplicity
 2) P+L(Config-chages-Not-sup => Network call every time) 
 3) Retrofit, RxJava, ButterKnife
