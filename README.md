@@ -59,13 +59,15 @@
 ----
 ### 4- ~~3rd Party -> [Starter](https://github.com/androidstarters/android-starter/tree/develop/app/src/main/java/io/mvpstarter/sample)~~ **4-Aug-16 | 428 | *Copied Ribot***
 
-
 [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
+
+[My Github issue](https://github.com/androidstarters/android-starter/issues)
 
 1) Simplicity
 2) P+L(Config-chages-Not-sup => Network call every time) 
 3) Retrofit, RxJava, ButterKnife
 4) UI(Recycler View)
+5) UP-TO-DATE [updated to Android Studio 3.0.0 next day]
 
 ----
 ### 5- 3rd Party -> [Ribot](https://github.com/ribot/ribot-app-android/tree/master/app/src/main/java/io/ribot/app) **21-Sep-15 | 1164**
