@@ -47,19 +47,21 @@
 
 #### 3a [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp) **27-Jan-17 | 1936**
 
-#### 3b [android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp) **27-Jan-17 | 141**
+#### 3b ~~[android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)~~ **27-Jan-17 | 141**
 
+***3b=>TOO BROAD FOR SMALL PROJECTS***
 1) Repository (Network, DB, Prefs)
 2) P only
 3) RxJava, ButterKnife
 4) UI(Navigation Drawer, Recycler View)
 
 ----
-### 4- 3rd Party -> [Starter](https://github.com/androidstarters/android-starter/tree/develop/app/src/main/java/io/mvpstarter/sample) **4-Aug-16 | 428 | Copied Ribot**
+### 4- ~~3rd Party -> [Starter](https://github.com/androidstarters/android-starter/tree/develop/app/src/main/java/io/mvpstarter/sample)~~ **4-Aug-16 | 428 | Copied Ribot**
 
 
 [Reddit](https://www.reddit.com/r/androiddev/comments/5s72bi/android_app_starter_based_on_android_mvp_dagger2/)
 
+***4=>COPIES RIBOT***
 1) Simplicity
 2) P+L(Config-chages-Not-sup => Network call every time) 
 3) Retrofit, RxJava, ButterKnife
@@ -74,6 +76,7 @@
 3) UI(Recycler View)
 4) Marshmallow [6] permission
 5) Oauth2
+6) [Android Architecture, Code Guidelines](https://github.com/ribot/android-guidelines) |[Code Quality, Code Analysis tool](https://github.com/ribot/ribot-app-android#code-quality)
 
 ----
 ### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App/tree/develop/app/src/main/java/com/example) **12-Sep-17 | 1556**
