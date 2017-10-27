@@ -1,0 +1,8 @@
+1) refactor app name, package name, icon, new libraries - WORKING FINE
+2) change orientation to P+L, remove splash - WORKING FINE
+3) remove dialog - WORKING FINE
+4) Contract class created for Main - IN PROGRESS
+
+
+
+
