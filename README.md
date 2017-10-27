@@ -45,6 +45,8 @@
 
 [Reddit](https://www.reddit.com/r/androiddev/comments/6po5ls/any_good_resources_on_mvp_step_by_step/)
 
+[My Github issue](https://github.com/MindorksOpenSource/android-mvp-architecture/issues/46)
+
 #### 3a [android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp) **27-Jan-17 | 1936**
 
 #### 3b ~~[android-mvp-interactor-architecture](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp)~~ **27-Jan-17 | 141 | *Too broad***
