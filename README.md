@@ -73,6 +73,7 @@
 2) Retrofit, SqlBright, RxJava, ButterKnife
 3) UI(Recycler View)
 4) Marshmallow [6] permission
+5) Oauth2
 
 ----
 ### 6- 3rd Party -> [Dribble API](https://github.com/athkalia/Just-Another-Android-App/tree/develop/app/src/main/java/com/example) **12-Sep-17 | 1556**
