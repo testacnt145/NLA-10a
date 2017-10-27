@@ -16,7 +16,7 @@
 ----
 ### 1- Official Google -> [android-architecture](https://github.com/googlesamples/android-architecture)
 
-#### 1a [android-architecture/tree/todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp) **3-Mar-16 | 1622,437**
+#### 1a [android-architecture/tree/todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp) **3-Mar-16 | 22,437**
 
 #### 1b [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp) **3-Mar-16 | 22,437**
 
