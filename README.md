@@ -20,7 +20,7 @@
 
 #### 1b [android-architecture/tree/todo-mvp-dagger](https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp) **3-Mar-16 | 22,437**
 
-1) Dagger
+1) Dagger {Latest Dagger 2.11 but difficult to understand](https://www.reddit.com/r/androiddev/comments/6d0nlw/what_do_you_think_about_dagger_android_injector/)
 2) Testing
 3) P+L(Config-chages-sup => Recycler view retains its position)
 4) Activities + Fragments
