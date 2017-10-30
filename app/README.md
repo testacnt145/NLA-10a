@@ -3,6 +3,7 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 **Changes**
 1. Remove all abstract methods from Base MvpView & place it inthier specific views
 2. Remove *handleApiError* and *setUserAsLoggedOut* from Base MvpPresenter & place it inthier specific presenters
+3. Move *MainMvpView* and *MainMvpPresenter* inside MainContract and rename it to *View* and *Presenter* only
 
 
 **BASE ACTIVITY**
