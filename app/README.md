@@ -14,4 +14,4 @@ Project using [minforks-mvp-interactor](https://github.com/MindorksOpenSource/an
     
 . perfect for dagger
 
-. issues : base class implementations
+. issues : base class implementations too abstract
