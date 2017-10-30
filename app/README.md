@@ -9,9 +9,10 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 
 **2**
 1. Remove all abstract methods from Base MvpView & place it inthier specific views
-2. Remove *handleApiError* and *setUserAsLoggedOut* from Base MvpPresenter & place it inthier specific presenters
+2. Remove *SchedulerProvider*, *CompositeDisposable*, *handleApiError* and *setUserAsLoggedOut*  from Base MvpPresenter & place it in thier specific presenters
 3. Move *MainMvpView* and *MainMvpPresenter* inside MainContract and rename it to *View* and *Presenter* only
-4. Remove all extra classes only *main activity* left
+4. Change constructor from @Inject *MainPresenter(DataManager dataManager, SchedulerProvider schedulerProvider, CompositeDisposable compositeDisposable)* to *MainPresenter(DataManager dataManager)*
+5. Remove all extra classes only *main activity* left
 
 
 **BASE ACTIVITY**
