@@ -14,6 +14,10 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 4. Change constructor from @Inject *MainPresenter(DataManager dataManager, SchedulerProvider schedulerProvider, CompositeDisposable compositeDisposable)* to *MainPresenter(DataManager dataManager)*
 5. Remove all extra classes only *main activity* left
 
+**3**
+1. Remove rxutils
+2. Remove all crap from *MainActivity* except Navigation View
+3. Added ViewPager
 
 **BASE ACTIVITY**
 
