@@ -111,19 +111,12 @@
 
 This app uses
 1) MVP + Configuration changes supported + Repository (Database, API, Preferences)
-2) Retrofit + Dagger + Databining
+2) Retrofit + Dagger + ~~Databining~~ButterKnife
 3) Localization + RTL
 4) Fragments + View Pager + Navigation Drawer + Recycler view with multiple items
 5) Test Presenter
 6) Marshmallow Permission + Nougat App Shortcut + Oreo Notification Dots + Adaptive Icons
 
-Project 7 seems to be suitable as it contains Databinding, Retrofit, Dagger, Realm
-TODO:
-- add navigation drawer, viewpager
-- remove rxjava
-- proper rename attachView DetachView, remove abstract class
-- proper packaging
-- proper use of realm
 
 TODO
 1) MVVM (same)
