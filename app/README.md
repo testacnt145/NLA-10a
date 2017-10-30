@@ -1,9 +1,16 @@
 Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp/ui)
 
-**Changes**
+## Changes
+**1**
+1. refactor app name, package name,
+2. new icon, new libraries
+3. change orientation to P+L
+4. remove splash
+**2**
 1. Remove all abstract methods from Base MvpView & place it inthier specific views
 2. Remove *handleApiError* and *setUserAsLoggedOut* from Base MvpPresenter & place it inthier specific presenters
 3. Move *MainMvpView* and *MainMvpPresenter* inside MainContract and rename it to *View* and *Presenter* only
+4. Remove all extra classes only *main activity* left
 
 
 **BASE ACTIVITY**
