@@ -1,4 +1,9 @@
-Project using [minforks-mvp-interactor](https://github.com/MindorksOpenSource/android-mvp-interactor-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp/ui)
+Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-architecture/tree/master/app/src/main/java/com/mindorks/framework/mvp/ui)
+
+**Changes**
+1. Remove all abstract methods from Base MvpView & place it inthier specific views
+2. Remove *handleApiError* and *setUserAsLoggedOut* from Base MvpPresenter & place it inthier specific presenters
+
 
 **BASE ACTIVITY**
 
