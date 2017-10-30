@@ -6,6 +6,7 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 2. new icon, new libraries
 3. change orientation to P+L
 4. remove splash
+
 **2**
 1. Remove all abstract methods from Base MvpView & place it inthier specific views
 2. Remove *handleApiError* and *setUserAsLoggedOut* from Base MvpPresenter & place it inthier specific presenters
