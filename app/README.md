@@ -17,7 +17,7 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 **3**
 1. Remove rxutils
 2. Remove all crap from *MainActivity* except Navigation View
-3. Added ViewPager
+3. Added Recycler View with NewsAPI call on Details Activity
 
 **BASE ACTIVITY**
 
