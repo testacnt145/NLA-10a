@@ -10,7 +10,7 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 **2**
 1. Remove all abstract methods from Base MvpView & place it inthier specific views
 2. Remove *SchedulerProvider*, *CompositeDisposable*, *handleApiError* and *setUserAsLoggedOut*  from Base MvpPresenter & place it in thier specific presenters
-3. Move *MainMvpView* and *MainMvpPresenter* inside MainContract and rename it to *View* and *Presenter* only
+3. Move *MainMvpView* and *MainMvpPresenter* inside MainContract and rename it to *View* and *Presenter* only as in [1 todo-mvp-dagger](https://github.com/googlesamples/android-architecture/blob/todo-mvp-dagger/todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskContract.java)
 4. Change constructor from @Inject *MainPresenter(DataManager dataManager, SchedulerProvider schedulerProvider, CompositeDisposable compositeDisposable)* to *MainPresenter(DataManager dataManager)*
 5. Remove all extra classes only *main activity* left
 
@@ -21,7 +21,7 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 4. add *Feed Activity* that has View Pager
 
 **4**
-1. Use same recycle view items in blog and implement google places with data binding
+1. Use same recycle view items in blog and implement google places with data binding using [7-Marvel](https://github.com/andremion/Villains-and-Heroes/blob/master/app/src/main/java/com/andremion/heroes/ui/home/view/MainActivity.java)as it has proper configuration change with data binding
 1. Details Activity: Recycler View 
 2. Details Activity: Proper usage of Network repository
 3. Details Activity: Configuration changes handeled
