@@ -21,6 +21,7 @@ Project using [minforks-mvp](https://github.com/MindorksOpenSource/android-mvp-a
 4. add *Feed Activity* that has View Pager
 
 **4**
+1. Use same recycle view items in blog and implement google places with data binding
 1. Details Activity: Recycler View 
 2. Details Activity: Proper usage of Network repository
 3. Details Activity: Configuration changes handeled
