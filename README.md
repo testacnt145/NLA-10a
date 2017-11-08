@@ -1,5 +1,6 @@
 # Reddit
 [Reddit -> Sample_App_Required_That_Uses_MVP_Dagger_Retrofit](https://www.reddit.com/r/androiddev/comments/76wqog/sample_app_required_that_uses_mvp_dagger_retrofit/)
+[Reddit -> MVP example with View Pager](https://www.reddit.com/r/androiddev/comments/79njwn/mvp_example_with_view_pager/)
 
 # Articles
 
