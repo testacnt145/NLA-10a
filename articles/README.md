@@ -31,3 +31,7 @@ using 1
 
 ## Databinding:
 http://www.vogella.com/tutorials/AndroidDatabinding/article.html
+
+## Navigation View with View Pager:
+1. http://www.devexchanges.info/2016/05/android-basic-training-course-combining.html
+2. https://github.com/DevExchanges/NavigationDrawerAndViewPager
